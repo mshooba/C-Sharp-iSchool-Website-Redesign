@@ -1,0 +1,156 @@
+﻿@model iSchoolWebApp.Models.EmploymentRootModel
+
+@{
+    ViewData["Title"] = "Employment";
+}
+
+<div class="employment-hero-image">
+    <div class="hero-text">
+
+        <h1>@Model.introduction.title</h1>
+
+    </div>
+</div>
+
+
+
+<!-- Set up the intro sections-->
+<section class="employment-section">
+
+    <div class="employment-info">
+
+        <div class="employment-intro">
+            
+         
+
+            <!-- Loop through and display introduction content-->
+                @foreach (var item in Model.introduction.content)
+                {
+                <h2><i class="fa-sharp fa-solid fa-building"></i>@item.title</h2>
+
+                        <p>@item.description</p>
+                }
+        </div>
+
+        <div class="employment-statistics">
+            <!-- Loop through and display employment statistics-->
+            <h2><i class="fa-sharp fa-solid fa-building-columns"></i>@Model.degreeStatistics.title</h2>
+
+                @foreach (var item in Model.degreeStatistics.statistics)
+                {
+                        <p>@item.description: @item.value</p>
+                }
+
+        </div>
+
+        <div class="employers">
+            <!-- Loop through and display employers-->
+            <h2><i class="fa-sharp fa-solid fa-briefcase"></i>@Model.employers.title</h2>
+
+                <ul>
+                    @foreach (var item in Model.employers.employerNames)
+                    {
+                        <li>@item</li>
+                    }
+                </ul>
+
+        </div>
+
+        <div class="careers">
+            <!-- Loop through and display careers-->
+            <h2><i class="fa-solid fa-person-digging"></i>@Model.careers.title</h2>
+            <ul>
+                @foreach (var item in Model.careers.careerNames)
+                {
+                    <li>@item</li>
+                }
+            </ul>
+        </div>
+
+      </div>
+
+
+
+<!--Set up the data table structure with the models-->
+    <div class="table-responsive">
+        <table class="table table-striped table-pagination" data-page-length="10">
+            <thead>
+                <h2>@Model.employmentTable.title</h2>
+                <tr>
+                    <th>Employer</th>
+                    <th>Degree</th>
+                    <th>City</th>
+                    <th>Title</th>
+                    <th>Start Date</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <!-- Loop through and display employment table data in the table-->
+                @foreach (var info in Model.employmentTable.professionalEmploymentInformation)
+                {
+                    <tr>
+                        <td>@info.employer</td>
+                        <td>@info.degree</td>
+                        <td>@info.city</td>
+                        <td>@info.title</td>
+                        <td>@info.startDate</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+
+    <div class="table-responsive">
+        <table class="table table-striped table-pagination" data-page-length="10">
+            <thead>
+                <h2>@Model.coopTable.title</h2>
+                <tr>
+                    <th>Employer</th>
+                    <th>Degree</th>
+                    <th>City</th>
+                    <th>Term</th>
+                </tr>
+            </thead>
+            <!-- Loop through and display coop data in the table-->
+            <tbody>
+                @foreach (var info in Model.coopTable.coopInformation)
+                {
+                    <tr>
+                        <td>@info.employer</td>
+                        <td>@info.degree</td>
+                        <td>@info.city</td>
+                        <td>@info.term</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+
+</section>
+
+
+@section scripts {
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
+
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.js"></script>
+    <script>
+        $(document).ready(function () {
+        
+      
+
+            // Fade in the section (hide loading)
+            $('section').fadeIn(1000);
+            $('.table-pagination').DataTable({
+                paging: true, //make sure the table is paginated
+                ordering: true, //enable ordering
+                searching: true, //enable searching
+                info: true //show the info
+            });
+        });
+    </script>
+}
+
+

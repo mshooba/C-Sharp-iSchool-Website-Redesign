@@ -1,0 +1,122 @@
+﻿@model iSchoolWebApp.Models.PeopleRootModel
+
+@{
+    ViewData["Title"] = "People Page";
+}
+
+<div class="people-hero-image">
+    <div class="hero-text">
+
+        <h1>@Model.title</h1>
+
+    </div>
+</div>
+
+
+<section class="section">
+   
+
+    <!-- Setup the bootstrap tabs for people /staff-->
+    <div id="people-tabs">
+        <div>@Model.subTitle</div>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#faculty">Faculty</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#staff">Staff</a>
+            </li>
+        </ul>
+
+        <!-- Start Faculty tab content-->
+        <div class="tab-content">
+            <div id="faculty" class="tab-pane fade show active">
+                <div class="row">
+                    <!-- Loop through faculty and display their data in bootstrap cards-->
+                    @foreach (var faculty in Model.faculty)
+                    {
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="card h-100">
+                                <!-- trying to make the images responsive-->
+                                <img class="card-img-top img-fluid" src="@faculty.imagePath" alt="pic" style="object-fit: cover; height: 200px;" />
+                                <!-- Card body for each person, with their information-->
+                                <div class="card-body">
+                                    <h3 class="card-title">@faculty.name</h3>
+                                    <h4 class="card-subtitle mb-2">@faculty.title</h4>
+                                    <h5 class="card-subtitle mb-2 text-muted">@faculty.office</h5>
+                                    <p class="card-text">@faculty.phone</p>
+                                    <p class="card-text">@faculty.email</p>
+                                    <!-- If a person does not have a website... -->
+                                    @if (faculty.website != "")
+                                    {
+                                        <a href="@faculty.website" target="_blank" class="card-link">My site</a>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+
+            <!-- Start Staff tab content-->
+            <div id="staff" class="tab-pane fade">
+                <div class="row">
+                    <!-- Loop through Staff and display their data in bootstrap cards-->
+                    @foreach (var staff in Model.staff)
+                    {
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="card h-100">
+                                <img class="card-img-top img-fluid" src="@staff.imagePath" alt="pic" style="object-fit: cover; height: 200px;" />
+                                <div class="card-body">
+                                    <h3 class="card-title">@staff.name</h3>
+                                    <h4 class="card-subtitle mb-2">@staff.title</h4>
+                                    <h5 class="card-subtitle mb-2 text-muted">@staff.interestArea</h5>
+                                    <h5 class="card-subtitle mb-2 text-muted">@staff.office</h5>
+                          
+                              
+                                    <p class="card-text">@staff.email</p>
+                                    <!-- If a person does not have a website facebook etc... -->
+                                    @if (staff.website != "")
+                                    {
+                                        <a href="@staff.website" target="_blank" class="card-link">My site</a>
+                                    }
+
+                                    @if (staff.facebook != "")
+                                    {
+                                        <a href="@staff.facebook" target="_blank" class="card-link">My Facebook</a>
+                                    }
+
+                                    @if (staff.twitter != "")
+                                    {
+                                        <a href="@staff.twitter" target="_blank" class="card-link">My Twitter</a>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    <!-- add bootstrap CDN-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>
+        //function to allow switching between faculty and staff
+        $(function () {
+           //fade in the section to hide loading
+            $('section').fadeIn(1000);
+
+            //add event listener to show the correct pane
+            $('#people-tabs a').click(function (e) {
+                //dont go to another page
+                e.preventDefault();
+                //show the tab
+                $(this).tab('show');
+            });
+        });
+    </script>
+}

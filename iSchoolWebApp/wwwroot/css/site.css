@@ -1,0 +1,480 @@
+html {
+    font-size: 14px;
+}
+
+.container {
+    margin: 0;
+    display: flex;
+}
+
+.section {
+    margin: 4rem;
+    display: none;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ h1 {
+    margin-bottom: 3rem;
+    margin-bottom: 3rem;
+    margin-top: 4rem;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    /* modal was highjacking vertical scrolling*/
+    overflow-y: auto !important;
+
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    overflow-x: hidden;
+}
+
+/*new rules*/
+
+
+/* nav styles */
+
+
+
+
+.nav-item {
+    font-size: 1.2rem;
+    padding: .5rem;
+}
+
+.navbar-nav .nav-item:hover .nav-link {
+
+    color: darkorange !important;
+  
+  
+}
+
+
+/* splash page styles */
+
+.hero-image::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-image {
+    background-image: url('../assets/images/bg.jpg');
+    height: 60vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-left: 0;
+}
+
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.hero-text h1 {
+        font-size: 4rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+}
+
+.hero-text p {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+
+}
+
+.degree-hero-image::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.degree-hero-image {
+    background-image: url('../assets/images/degrees.jpg');
+    height: 60vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-left: 0;
+}
+
+.employment-hero-image::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+}
+
+.employment-hero-image {
+    background-image: url('../assets/images/employment.jpg');
+    height: 60vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-left: 0;
+}
+
+.people-hero-image::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+}
+
+.people-hero-image {
+    background-image: url('../assets/images/people.jpg');
+    height: 60vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-left: 0;
+}
+
+/*abstract the hero-image class for multiple use cases*/
+.hero-image {
+
+    height: 65vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-left: 0;
+}
+
+.hero-image::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
+
+.btn-primary {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    background-color: darkorange;
+    border: none;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-bottom: 3rem;
+
+    
+}
+ 
+
+
+
+.btn-primary:hover {
+        background-color: #212121;
+        transition: ease-in all 100ms;
+}
+
+/*about styles */
+
+.about {
+    max-width: 100%;
+
+}
+
+.about, .employment-intro, .employment-statistics, .employers, .careers {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+    margin: 3rem;
+    border: 4px solid darkorange;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(0.4, 0.4, 0.4, 0.4), 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+quote-container {
+    margin: 1rem 0;
+    padding: 1rem;
+    background-color: #f7f7f7;
+    position: relative;
+}
+
+.quote {
+    font-size: 1rem;
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+    position: relative;
+}
+
+.quote-author {
+    text-align: right;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
+/*people styles here*/
+
+.active {
+    font-weight: bold;
+    color: darkorange !important;
+    
+}
+
+.tab-content {
+    margin: 2rem;
+}
+
+.nav-link {
+    color: darkorange;
+}
+
+.nav-link:hover {
+    color: darkorange;
+    font-weight: bold;
+}
+
+.card-img-top {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    margin-top: 3rem;
+    border-radius: 10px;
+    
+}
+
+.card {
+    max-width: 80%;
+    color: #212121;
+    border: 4px solid darkorange;
+    box-shadow: 0 4px 6px rgba(0.4, 0.4, 0.4, 0.4), 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.nav {
+    border-bottom: 1px solid darkorange;
+    
+}
+
+/* data table styles*/
+table.dataTable tbody tr.even {
+    background-color: #FFA54F;
+}
+
+table.dataTable tbody tr.odd {
+    background-color: #FFDAB9;
+}
+
+.table-responsive table thead th {
+    font-size: 18px;
+    white-space: nowrap;
+}
+
+.table-responsive {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0.4, 0.4, 0.4, 0.4), 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+
+/* degree styles and other accordions*/
+
+.ui-accordion {
+    max-width: 65%;
+    margin: 0 auto;
+   
+}
+
+.ui-state-default.ui-state-active {
+    background-color: darkorange;
+    border: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+.ui-accordion-content {
+    font-family: "Poppins", sans-serif !important;
+    font-size: 24px;
+}
+
+.ui-accordion-header {
+    font-family: "Poppins", sans-serif !important;
+    font-size: 18px !important;
+}
+
+.ui-accordion-header:hover {
+        transition: all ease-in 200ms;
+        background-color: darkorange;
+        color: white;
+}
+
+/* minor and course modal styles*/
+
+.fancybox-content {
+    max-width: 55% !important;
+    border-radius: 10px;
+}
+
+.fancybox-content h2 {
+    color: darkorange;
+    font-weight: bold;
+}
+
+button {
+    font-family: "Poppins", sans-serif;
+}
+
+
+.course-button {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    background-color: darkorange;
+    border: none;
+    font-family: 'Poppins', sans-serif !important;
+
+}
+
+ .course-button:hover, button {
+        background-color: #212121;
+        transition: ease-in all 100ms;
+        color: white;
+        border-radius: 10px;
+}
+
+
+
+
+/* employment styles*/
+
+.employment-section {
+    margin: 4rem !important;
+}
+
+.employment-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.employment-intro {
+    justify-content: center;
+  
+}
+
+.employment-intro {
+    max-width: 65%;
+}
+
+
+.employment-statistics {
+    max-width: 50%;
+}
+
+.employers,
+.careers {
+    width: 50%;
+}
+
+.employers, .careers {
+    flex-basis: 50%;
+    max-width: 40%;
+}
+
+/*icons*/
+.fa-sharp, .fa-solid {
+    margin-right: 1rem;
+}
+
+.employment-info h1 {
+    font-size: 60px;
+    font-weight: 900;
+    color: darkorange;
+    margin-bottom: 4rem; 
+}
+
+/* table styles */
+
+/* add color? change styles?*/
+
+.table-responsive {
+    margin-bottom: 10rem;
+    max-width: 75%;
+}

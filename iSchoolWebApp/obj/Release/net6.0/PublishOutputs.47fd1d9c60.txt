@@ -1,0 +1,8 @@
+C:\Users\Matt\Desktop\c# submited\iSchoolWebApp\iSchoolWebApp\obj\Release\net6.0\PubTmp\Out\iSchoolWebApp.exe
+C:\Users\Matt\Desktop\c# submited\iSchoolWebApp\iSchoolWebApp\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\Matt\Desktop\c# submited\iSchoolWebApp\iSchoolWebApp\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\Matt\Desktop\c# submited\iSchoolWebApp\iSchoolWebApp\obj\Release\net6.0\PubTmp\Out\iSchoolWebApp.dll
+C:\Users\Matt\Desktop\c# submited\iSchoolWebApp\iSchoolWebApp\obj\Release\net6.0\PubTmp\Out\iSchoolWebApp.deps.json
+C:\Users\Matt\Desktop\c# submited\iSchoolWebApp\iSchoolWebApp\obj\Release\net6.0\PubTmp\Out\iSchoolWebApp.runtimeconfig.json
+C:\Users\Matt\Desktop\c# submited\iSchoolWebApp\iSchoolWebApp\obj\Release\net6.0\PubTmp\Out\iSchoolWebApp.pdb
+C:\Users\Matt\Desktop\c# submited\iSchoolWebApp\iSchoolWebApp\obj\Release\net6.0\PubTmp\Out\Newtonsoft.Json.dll

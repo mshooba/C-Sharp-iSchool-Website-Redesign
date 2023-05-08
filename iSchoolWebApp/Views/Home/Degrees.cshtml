@@ -1,0 +1,125 @@
+﻿@model iSchoolWebApp.Models.DegreeRootModel
+
+@{
+    ViewData["Title"] = "Degrees";
+}
+
+
+<div class="degree-hero-image">
+    <div class="hero-text">
+
+        <h1>Degrees</h1>
+        <a class="btn btn-primary" asp-area="" asp-controller="Home" asp-action="MinorsWithCourses">Explore Our Minors</a>
+    </div>
+</div>
+
+
+<section class="section">
+
+    <h1>Undergraduate Degrees</h1>
+
+    <div id="accordion">
+        <!--Loop through and display undergraduate degrees-->
+        @foreach (var degree in Model.undergraduate)
+        {
+            <h3>@degree.title</h3>
+            <div>
+                <p>@degree.description</p>
+                <h4>Concentrations</h4>
+                <ul>
+                    <!--Loop through and display each concentration for the undergraduate degrees-->
+                    @foreach (var concentration in degree.concentrations)
+                    {
+                        <li>@concentration</li>
+                    }
+                </ul>
+            </div>
+        }
+    </div>
+
+
+
+    <h1>Graduate Degrees</h1>
+        <div id="accordion2">
+            @foreach (var degree in Model.graduate)
+            {
+            <!--If there are certificates in the graduate degrees-->
+                @if (degree.availableCertificates != null )
+                {
+                    <div>
+                    <!--format the text properly-->
+                    <h3 style="text-transform: capitalize">@degree.degreeName</h3>
+                        <div>
+                       
+                            <p>@degree.description</p>
+                        <!--If there are concentrations in graduate degrees-->
+                            @if (degree.concentrations != null)
+                            {
+                                <h4>Concentrations</h4>
+                                <ul>
+                                <!--Loop through and display the concentrations with the description-->
+                                    @foreach (var concentration in degree.concentrations)
+                                    {
+                                        <li>@concentration</li>
+                                    }
+                                </ul>
+                            }
+
+                            <div>
+                                <ul>
+                                <!--Loop through display the certificates with the description-->
+                                    @foreach (var certificate in degree.availableCertificates)
+                                    {
+                                        <li>@certificate</li>
+                                    }
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                }
+                else
+                {
+                    <div>
+                        <h3>@degree.title</h3>
+                        <div>
+                            <p>@degree.description</p>
+                            @if (degree.concentrations != null)
+                            {
+                                <h4>Concentrations:</h4>
+                                <ul>
+                                    @foreach (var concentration in degree.concentrations)
+                                    {
+                                        <li>@concentration</li>
+                                    }
+                                </ul>
+                            }
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+    
+</section>
+
+@section Scripts {
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="//code.jquery.com/ui/1.13.0/jquery-ui.min.js"></script>
+    <script>
+        //setup accordion features
+        $(document).ready(function () {
+            $('section').fadeIn(1000);
+            $("#accordion").accordion({
+                collapsible: true, // Allow the accordion panels to be collapsible
+                active: false, // Start with no panels open
+                heightStyle: "content" // Set the height to be responsive to content
+            });
+            $("#accordion2").accordion({
+                header: "> div > h3",
+                collapsible: true,// Allow the accordion panels to be collapsible
+                active: false, // Start with no panels open
+                heightStyle: "content" // Set the height to be responsive to content
+            });
+        });
+    </script>
+}

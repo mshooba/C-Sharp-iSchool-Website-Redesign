@@ -1,0 +1,107 @@
+﻿@model dynamic
+
+@{
+    ViewData["Title"] = "Minors";
+}
+
+
+<div class="degree-hero-image">
+    <div class="hero-text">
+
+        <h1>Minors</h1>
+        <!-- <a class="btn btn-primary" asp-area="" asp-controller="Home" asp-action="MinorsWithCourses">Explore Our Minors</a>-->
+    </div>
+</div>
+
+
+<section class="section">
+
+
+    <!-- Loop through minors and put the data inside an accordion -->
+    <div id="accordion">
+        @foreach (var minor in Model.UgMinors)
+        {
+            <h3>@minor.title</h3>
+            <div>
+                <p>@minor.description</p>
+                <h4>Courses</h4>
+                <div class="courses-container">
+
+                    <!-- Loop through each courseID in the minors -->
+                    @foreach (var courseID in minor.courses)
+                    {
+                        <!-- asssign course with the ID from the dictionary in order to get the right course title and description for the modal -->
+                        var course = Model.CourseDictionary[courseID];
+                        <button class="course-button" data-description="@course.description" data-title="@course.title">@course.courseID</button>
+
+                    }
+                </div>
+            </div>
+        }
+    </div>
+
+    
+
+</section>
+
+@section Scripts {
+    <!-- import jQuery -->
+    <script src="//code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- import jQueryUI CSS and FancyBox -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+    <script src="//code.jquery.com/ui/1.13.0/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+
+
+    <script>
+        $(document).ready(function () {
+            $('section').fadeIn(1000);
+
+            // Initialize accordion
+            $("#accordion").accordion({
+                header: "> h3",     // The header element
+                collapsible: true,  // Allow the accordion panels to be collapsible
+                active: false,      // Start with no panels open
+                heightStyle: "content", // Set the height to be responsive to content
+            });
+
+            $("#accordion2").accordion({
+                header: "> div > h3",
+                collapsible: true,
+                active: false
+            });
+
+            //click events for the course buttons
+            $(".course-button").click(function (e) {
+                e.preventDefault();
+
+                // Get the course description and title from the clicked button
+                var courseDescription = $(this).data('description');
+                var courseTitle = $(this).data('title');
+
+
+                //start FancyBox stuff
+                $.fancybox.open({
+                    //set the icons and content
+                    content: '<h2><i class="fa fa-book" style="padding-right: 10px;"></i>' + courseTitle + '</h2>' + courseDescription,
+                    type: 'html',
+                    minHeight: '100',
+                    minWidth: '10',
+                    maxWidth: '40% !important',
+                    afterClose: function () {
+                        //remove content after the modal is closed - scrolling was being disabled after opening then closing a fancybox
+                        this.content.remove();
+                        $('.fancybox-container').remove();
+                    }
+                });
+
+            });
+        });
+    </script>
+
+}
+
+

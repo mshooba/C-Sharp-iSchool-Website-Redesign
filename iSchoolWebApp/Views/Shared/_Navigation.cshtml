@@ -1,0 +1,24 @@
+﻿<!-- Partial view  (using ViewBag) for the navigation (making active links)-->
+
+@{
+    var activeMenu = ViewBag.ActiveMenu ?? "";
+}
+
+<ul class="navbar-nav mr-auto">
+    <!-- if the links are active add the action to make the link active -->
+    <li class="nav-item @(ViewContext.RouteData.Values["Action"].ToString() == "Index" ? "active" : "")">
+        <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
+    </li>
+    <li class="nav-item @(ViewContext.RouteData.Values["Action"].ToString() == "People" ? "active" : "")">
+        <a class="nav-link" asp-controller="Home" asp-action="People">People</a>
+    </li>
+    <li class="nav-item @(ViewContext.RouteData.Values["Action"].ToString() == "Degrees" ? "active" : "")">
+        <a class="nav-link" asp-controller="Home" asp-action="Degrees">Degrees</a>
+    </li>
+    <li class="nav-item @(ViewContext.RouteData.Values["Action"].ToString() == "MinorsWithCourses" ? "active" : "")">
+        <a class="nav-link" asp-controller="Home" asp-action="MinorsWithCourses">Minors</a>
+    </li>
+    <li class="nav-item @(ViewContext.RouteData.Values["Action"].ToString() == "Employment" ? "active" : "")">
+        <a class="nav-link" asp-controller="Home" asp-action="Employment">Employment</a>
+    </li>
+</ul>

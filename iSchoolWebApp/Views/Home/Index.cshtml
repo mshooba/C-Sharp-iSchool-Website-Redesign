@@ -1,0 +1,32 @@
+﻿@model iSchoolWebApp.Models.AboutRootModel
+
+@{
+    ViewData["Title"] = "Golisano College of Computing and Information Sciences | School of Information";
+}
+
+<!--Display hero image with call to action for degrees-->
+<div class="hero-image">
+    <div class="hero-text">
+        <h1>Welcome to the School of Information at RIT</h1>
+      
+        <a class="btn btn-primary" asp-area="" asp-controller="Home" asp-action="Degrees">Explore Our Degrees</a>
+    </div>
+</div>
+
+<!--Display the about section on the splash page-->
+<div class="container">
+    <main role="main" class="pb-3">
+        
+        
+        <section class="about">
+            <h1><strong>About the School of Information</strong></h1>
+            <h2>@Model.title</h2>
+            <p>@Model.description</p>
+            <div class="quote-container">
+                <p class="quote">&ldquo;@Model.quote&rdquo;</p>
+                <p class="quote-author">@Model.quoteAuthor</p>
+            </div>
+        </section>
+    </main>
+</div>
+

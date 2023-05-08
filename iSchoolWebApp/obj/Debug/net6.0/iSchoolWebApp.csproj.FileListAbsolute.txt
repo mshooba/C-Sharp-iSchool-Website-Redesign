@@ -1,0 +1,179 @@
+E:\340\2225\12b\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\appsettings.Development.json
+E:\340\2225\12b\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\appsettings.json
+E:\340\2225\12b\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\iSchoolWebApp.staticwebassets.runtime.json
+E:\340\2225\12b\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\iSchoolWebApp.exe
+E:\340\2225\12b\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\iSchoolWebApp.deps.json
+E:\340\2225\12b\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\iSchoolWebApp.runtimeconfig.json
+E:\340\2225\12b\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\iSchoolWebApp.dll
+E:\340\2225\12b\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\ref\iSchoolWebApp.dll
+E:\340\2225\12b\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\iSchoolWebApp.pdb
+E:\340\2225\12b\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.csproj.AssemblyReference.cache
+E:\340\2225\12b\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\340\2225\12b\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.AssemblyInfoInputs.cache
+E:\340\2225\12b\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.AssemblyInfo.cs
+E:\340\2225\12b\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.csproj.CoreCompileInputs.cache
+E:\340\2225\12b\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.MvcApplicationPartsAssemblyInfo.cache
+E:\340\2225\12b\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.RazorAssemblyInfo.cache
+E:\340\2225\12b\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.RazorAssemblyInfo.cs
+E:\340\2225\12b\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\staticwebassets.build.json
+E:\340\2225\12b\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\staticwebassets.development.json
+E:\340\2225\12b\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\340\2225\12b\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\scopedcss\bundle\iSchoolWebApp.styles.css
+E:\340\2225\12b\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\scopedcss\projectbundle\iSchoolWebApp.bundle.scp.css
+E:\340\2225\12b\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.dll
+E:\340\2225\12b\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\ref\iSchoolWebApp.dll
+E:\340\2225\12b\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.pdb
+E:\340\2225\12b\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.genruntimeconfig.cache
+E:\340\2225\13a\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\appsettings.Development.json
+E:\340\2225\13a\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\appsettings.json
+E:\340\2225\13a\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\iSchoolWebApp.staticwebassets.runtime.json
+E:\340\2225\13a\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\iSchoolWebApp.exe
+E:\340\2225\13a\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\iSchoolWebApp.deps.json
+E:\340\2225\13a\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\iSchoolWebApp.runtimeconfig.json
+E:\340\2225\13a\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\iSchoolWebApp.dll
+E:\340\2225\13a\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\ref\iSchoolWebApp.dll
+E:\340\2225\13a\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\iSchoolWebApp.pdb
+E:\340\2225\13a\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.csproj.AssemblyReference.cache
+E:\340\2225\13a\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\340\2225\13a\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.AssemblyInfoInputs.cache
+E:\340\2225\13a\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.AssemblyInfo.cs
+E:\340\2225\13a\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.csproj.CoreCompileInputs.cache
+E:\340\2225\13a\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.MvcApplicationPartsAssemblyInfo.cache
+E:\340\2225\13a\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.RazorAssemblyInfo.cache
+E:\340\2225\13a\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.RazorAssemblyInfo.cs
+E:\340\2225\13a\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\staticwebassets.build.json
+E:\340\2225\13a\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\staticwebassets.development.json
+E:\340\2225\13a\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\340\2225\13a\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\scopedcss\bundle\iSchoolWebApp.styles.css
+E:\340\2225\13a\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\scopedcss\projectbundle\iSchoolWebApp.bundle.scp.css
+E:\340\2225\13a\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.dll
+E:\340\2225\13a\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\ref\iSchoolWebApp.dll
+E:\340\2225\13a\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.pdb
+E:\340\2225\13a\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.genruntimeconfig.cache
+D:\Profiles\mps5276\Desktop\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\appsettings.Development.json
+D:\Profiles\mps5276\Desktop\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\appsettings.json
+D:\Profiles\mps5276\Desktop\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\iSchoolWebApp.staticwebassets.runtime.json
+D:\Profiles\mps5276\Desktop\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\iSchoolWebApp.exe
+D:\Profiles\mps5276\Desktop\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\iSchoolWebApp.deps.json
+D:\Profiles\mps5276\Desktop\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\iSchoolWebApp.runtimeconfig.json
+D:\Profiles\mps5276\Desktop\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\iSchoolWebApp.dll
+D:\Profiles\mps5276\Desktop\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\iSchoolWebApp.pdb
+D:\Profiles\mps5276\Desktop\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.csproj.AssemblyReference.cache
+D:\Profiles\mps5276\Desktop\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Profiles\mps5276\Desktop\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.AssemblyInfoInputs.cache
+D:\Profiles\mps5276\Desktop\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.AssemblyInfo.cs
+D:\Profiles\mps5276\Desktop\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.csproj.CoreCompileInputs.cache
+D:\Profiles\mps5276\Desktop\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.MvcApplicationPartsAssemblyInfo.cache
+D:\Profiles\mps5276\Desktop\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.RazorAssemblyInfo.cache
+D:\Profiles\mps5276\Desktop\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.RazorAssemblyInfo.cs
+D:\Profiles\mps5276\Desktop\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\staticwebassets.build.json
+D:\Profiles\mps5276\Desktop\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\staticwebassets.development.json
+D:\Profiles\mps5276\Desktop\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Profiles\mps5276\Desktop\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\scopedcss\bundle\iSchoolWebApp.styles.css
+D:\Profiles\mps5276\Desktop\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\scopedcss\projectbundle\iSchoolWebApp.bundle.scp.css
+D:\Profiles\mps5276\Desktop\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.dll
+D:\Profiles\mps5276\Desktop\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\refint\iSchoolWebApp.dll
+D:\Profiles\mps5276\Desktop\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.pdb
+D:\Profiles\mps5276\Desktop\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.genruntimeconfig.cache
+D:\Profiles\mps5276\Desktop\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\ref\iSchoolWebApp.dll
+D:\Profiles\mps5276\Desktop\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Profiles\mps5276\Desktop\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.csproj.CopyComplete
+C:\Users\Matt\Desktop\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Matt\Desktop\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\appsettings.json
+C:\Users\Matt\Desktop\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\iSchoolWebApp.staticwebassets.runtime.json
+C:\Users\Matt\Desktop\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\iSchoolWebApp.exe
+C:\Users\Matt\Desktop\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\iSchoolWebApp.deps.json
+C:\Users\Matt\Desktop\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\iSchoolWebApp.runtimeconfig.json
+C:\Users\Matt\Desktop\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\iSchoolWebApp.dll
+C:\Users\Matt\Desktop\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\iSchoolWebApp.pdb
+C:\Users\Matt\Desktop\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Matt\Desktop\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.csproj.AssemblyReference.cache
+C:\Users\Matt\Desktop\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matt\Desktop\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.AssemblyInfoInputs.cache
+C:\Users\Matt\Desktop\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.AssemblyInfo.cs
+C:\Users\Matt\Desktop\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.csproj.CoreCompileInputs.cache
+C:\Users\Matt\Desktop\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Matt\Desktop\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.RazorAssemblyInfo.cache
+C:\Users\Matt\Desktop\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.RazorAssemblyInfo.cs
+C:\Users\Matt\Desktop\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\staticwebassets\msbuild.iSchoolWebApp.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Matt\Desktop\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\staticwebassets\msbuild.build.iSchoolWebApp.props
+C:\Users\Matt\Desktop\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.iSchoolWebApp.props
+C:\Users\Matt\Desktop\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.iSchoolWebApp.props
+C:\Users\Matt\Desktop\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Matt\Desktop\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Matt\Desktop\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Matt\Desktop\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Matt\Desktop\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\scopedcss\bundle\iSchoolWebApp.styles.css
+C:\Users\Matt\Desktop\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\scopedcss\projectbundle\iSchoolWebApp.bundle.scp.css
+C:\Users\Matt\Desktop\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.csproj.CopyComplete
+C:\Users\Matt\Desktop\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.dll
+C:\Users\Matt\Desktop\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\refint\iSchoolWebApp.dll
+C:\Users\Matt\Desktop\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.pdb
+C:\Users\Matt\Desktop\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.genruntimeconfig.cache
+C:\Users\Matt\Desktop\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\ref\iSchoolWebApp.dll
+C:\Users\Matt\Desktop\c# submited\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Matt\Desktop\c# submited\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\appsettings.json
+C:\Users\Matt\Desktop\c# submited\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\iSchoolWebApp.staticwebassets.runtime.json
+C:\Users\Matt\Desktop\c# submited\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\iSchoolWebApp.exe
+C:\Users\Matt\Desktop\c# submited\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\iSchoolWebApp.deps.json
+C:\Users\Matt\Desktop\c# submited\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\iSchoolWebApp.runtimeconfig.json
+C:\Users\Matt\Desktop\c# submited\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\iSchoolWebApp.dll
+C:\Users\Matt\Desktop\c# submited\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\iSchoolWebApp.pdb
+C:\Users\Matt\Desktop\c# submited\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Matt\Desktop\c# submited\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.csproj.AssemblyReference.cache
+C:\Users\Matt\Desktop\c# submited\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matt\Desktop\c# submited\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.AssemblyInfoInputs.cache
+C:\Users\Matt\Desktop\c# submited\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.AssemblyInfo.cs
+C:\Users\Matt\Desktop\c# submited\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.csproj.CoreCompileInputs.cache
+C:\Users\Matt\Desktop\c# submited\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Matt\Desktop\c# submited\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.RazorAssemblyInfo.cache
+C:\Users\Matt\Desktop\c# submited\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.RazorAssemblyInfo.cs
+C:\Users\Matt\Desktop\c# submited\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\staticwebassets\msbuild.iSchoolWebApp.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Matt\Desktop\c# submited\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\staticwebassets\msbuild.build.iSchoolWebApp.props
+C:\Users\Matt\Desktop\c# submited\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.iSchoolWebApp.props
+C:\Users\Matt\Desktop\c# submited\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.iSchoolWebApp.props
+C:\Users\Matt\Desktop\c# submited\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Matt\Desktop\c# submited\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Matt\Desktop\c# submited\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Matt\Desktop\c# submited\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Matt\Desktop\c# submited\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\scopedcss\bundle\iSchoolWebApp.styles.css
+C:\Users\Matt\Desktop\c# submited\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\scopedcss\projectbundle\iSchoolWebApp.bundle.scp.css
+C:\Users\Matt\Desktop\c# submited\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.csproj.CopyComplete
+C:\Users\Matt\Desktop\c# submited\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.dll
+C:\Users\Matt\Desktop\c# submited\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\refint\iSchoolWebApp.dll
+C:\Users\Matt\Desktop\c# submited\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.pdb
+C:\Users\Matt\Desktop\c# submited\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.genruntimeconfig.cache
+C:\Users\Matt\Desktop\c# submited\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\ref\iSchoolWebApp.dll
+C:\Users\Matt\Desktop\dev\C#\ischool web app final\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Matt\Desktop\dev\C#\ischool web app final\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\appsettings.json
+C:\Users\Matt\Desktop\dev\C#\ischool web app final\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\iSchoolWebApp.staticwebassets.runtime.json
+C:\Users\Matt\Desktop\dev\C#\ischool web app final\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\iSchoolWebApp.exe
+C:\Users\Matt\Desktop\dev\C#\ischool web app final\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\iSchoolWebApp.deps.json
+C:\Users\Matt\Desktop\dev\C#\ischool web app final\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\iSchoolWebApp.runtimeconfig.json
+C:\Users\Matt\Desktop\dev\C#\ischool web app final\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\iSchoolWebApp.dll
+C:\Users\Matt\Desktop\dev\C#\ischool web app final\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\iSchoolWebApp.pdb
+C:\Users\Matt\Desktop\dev\C#\ischool web app final\iSchoolWebApp\iSchoolWebApp\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Matt\Desktop\dev\C#\ischool web app final\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.csproj.AssemblyReference.cache
+C:\Users\Matt\Desktop\dev\C#\ischool web app final\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matt\Desktop\dev\C#\ischool web app final\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.AssemblyInfoInputs.cache
+C:\Users\Matt\Desktop\dev\C#\ischool web app final\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.AssemblyInfo.cs
+C:\Users\Matt\Desktop\dev\C#\ischool web app final\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.csproj.CoreCompileInputs.cache
+C:\Users\Matt\Desktop\dev\C#\ischool web app final\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Matt\Desktop\dev\C#\ischool web app final\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.RazorAssemblyInfo.cache
+C:\Users\Matt\Desktop\dev\C#\ischool web app final\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.RazorAssemblyInfo.cs
+C:\Users\Matt\Desktop\dev\C#\ischool web app final\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\staticwebassets\msbuild.iSchoolWebApp.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Matt\Desktop\dev\C#\ischool web app final\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\staticwebassets\msbuild.build.iSchoolWebApp.props
+C:\Users\Matt\Desktop\dev\C#\ischool web app final\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.iSchoolWebApp.props
+C:\Users\Matt\Desktop\dev\C#\ischool web app final\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.iSchoolWebApp.props
+C:\Users\Matt\Desktop\dev\C#\ischool web app final\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Matt\Desktop\dev\C#\ischool web app final\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Matt\Desktop\dev\C#\ischool web app final\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Matt\Desktop\dev\C#\ischool web app final\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Matt\Desktop\dev\C#\ischool web app final\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\scopedcss\bundle\iSchoolWebApp.styles.css
+C:\Users\Matt\Desktop\dev\C#\ischool web app final\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\scopedcss\projectbundle\iSchoolWebApp.bundle.scp.css
+C:\Users\Matt\Desktop\dev\C#\ischool web app final\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.csproj.CopyComplete
+C:\Users\Matt\Desktop\dev\C#\ischool web app final\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.dll
+C:\Users\Matt\Desktop\dev\C#\ischool web app final\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\refint\iSchoolWebApp.dll
+C:\Users\Matt\Desktop\dev\C#\ischool web app final\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.pdb
+C:\Users\Matt\Desktop\dev\C#\ischool web app final\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\iSchoolWebApp.genruntimeconfig.cache
+C:\Users\Matt\Desktop\dev\C#\ischool web app final\iSchoolWebApp\iSchoolWebApp\obj\Debug\net6.0\ref\iSchoolWebApp.dll
