@@ -17,7 +17,7 @@ This project is a C#-based web application that retrieves and displays informati
 
 These components were obtained from the official documentation of Bootstrap, JQueryUI and FancyBox
 
-## Above and Beyond
+
 - Use of the expando object to display course lists with clickable buttons. Research into a sleek looking plugin to display course information.
 - Learning a bit of typescript to be able to use the Fancybox plugin.
 - Splash Page Design, overall look and feel. Attention to detail for visual design / typography / user experience.
